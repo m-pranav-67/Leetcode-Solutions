@@ -5,8 +5,10 @@ public:
         int k=(n-1)/2;
         vector<bool> mrkd(k+1,false);
         for (int i=1;i<=k;i++) {
-            for (int j=i;(i+j+2*i*j)<=k;j++) {
-                mrkd[i+j+2*i*j] = true;
+            for (int j = i; ; j++) {
+                long long ind=i+j+2LL*i*j;
+                if(ind > k) break;
+                mrkd[ind]=true;
             }}
         int count=1;
         for (int i=1;i<=k;i++) {
