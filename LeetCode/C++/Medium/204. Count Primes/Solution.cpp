@@ -5,18 +5,13 @@ public:
         int k=(n-1)/2;
         vector<bool> mrkd(k+1,false);
         for (int i=1;i<=k;i++) {
-            for (int j = i; ; j++) {
-                long long ind=i+j+2LL*i*j;
-                if(ind > k) break;
-                mrkd[ind]=true;
+            for (int j=i;j<=(k-i)/(2*i+1);j++) {
+                int ind =i+j+2*i*j;
+                mrkd[ind] = true;
             }}
         int count=1;
-        for (int i=1;i<=k;i++) {
-            if (!mrkd[i]){
-                int prime=2*i+1;
-                if (prime<n) count++;
-            }
-        }
+        for (int i=1; i<=k;i++) {
+            if (!mrkd[i]) count++;}
         return count;
     }
 };
