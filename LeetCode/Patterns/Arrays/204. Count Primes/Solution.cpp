@@ -11,7 +11,7 @@ public:
             }}
         int count=1;
         for (int i=1; i<=k;i++) {
-            if (!mrkd[i]) count++;}
+            if (!markd[i]) count++;}
         return count;
     }
 };
