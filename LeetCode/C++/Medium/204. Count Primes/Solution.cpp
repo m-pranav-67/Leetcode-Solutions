@@ -10,8 +10,12 @@ public:
                 mrkd[ind] = true;
             }}
         int count=1;
-        for (int i=1; i<=k;i++) {
-            if (!markd[i]) count++;}
+        for (int i=1;i<=k;i++) {
+            if (!mrkd[i]){
+                int prime=2*i+1;
+                if (prime<n) count++;
+            }
+        }
         return count;
     }
 };
