@@ -8,8 +8,8 @@
 Array, Hash Table, Union-Find
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 56 ms
+- **Memory:** 26.5 MB
 
 ---
 
@@ -19,7 +19,7 @@ Given an unsorted array of integers  `nums` , return  *the length of the longest
 
 You must write an algorithm that runs in  `O(n)`  time.
 
-OriginalPython **Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [100,4,200,1,3,2]
