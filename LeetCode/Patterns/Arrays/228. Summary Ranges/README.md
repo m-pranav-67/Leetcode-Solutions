@@ -8,8 +8,8 @@
 Array
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 15 ms
+- **Memory:** 12 MB
 
 ---
 
@@ -28,7 +28,7 @@ Each range  `[a,b]`  in the list should be output as:
 	
 - `"a"`  if  `a == b`
 
-OriginalPython **Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [0,1,2,4,5,7]
