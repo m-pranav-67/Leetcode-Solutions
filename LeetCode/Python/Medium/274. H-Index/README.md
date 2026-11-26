@@ -8,8 +8,8 @@
 Array, Sorting, Counting Sort
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 23 ms
+- **Memory:** 12.4 MB
 
 ---
 
@@ -19,7 +19,7 @@ Given an array of integers  `citations`  where  `citations[i]`  is the number of
 
 According to the  [definition of h-index on Wikipedia](https://en.wikipedia.org/wiki/H-index) : The h-index is defined as the maximum value of  `h`  such that the given researcher has published at least  `h`  papers that have each been cited at least  `h`  times.
 
-OriginalPython **Example 1:**
+**Example 1:**
 
 ```
 Input: citations = [3,0,6,1,5]
