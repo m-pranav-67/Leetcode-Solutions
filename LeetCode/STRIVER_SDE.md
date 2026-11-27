@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 6 / 76 (7.9%)
+- **Completed:** 7 / 76 (9.2%)
 
 ---
 
@@ -15,7 +15,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Next Permutation
 - [x] [Maximum Subarray](./Python/Medium/53. Maximum Subarray/)
 - [x] [Sort Colors](./Python/Medium/75. Sort Colors/)
-- [ ] Best Time to Buy and Sell Stock
+- [x] [Best Time to Buy and Sell Stock](./Python/Easy/121. Best Time to Buy and Sell Stock/)
 - [ ] Rotate Image
 - [ ] Merge Intervals
 - [ ] Find the Duplicate Number
